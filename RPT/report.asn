@@ -1,0 +1,11 @@
+LATENCY = 9
+LOGIC_TA = 345
+LOGIC_TIME__ACTUAL_PERIOD = 6.601000
+LOGIC_TIME__ACTUAL_SPEED = 151
+LOGIC_TIME__TIMING_PATHS = ( 6.601000, 6.332000, 0.269000, stg_counter2(1), r_add2(12)/d,  ), ( 6.566000, 6.297000, 0.269000, stg_counter2(0), r_add2(12)/d,  ), ( 6.492000, 6.223000, 0.269000, stg_counter2(2), r_add2(12)/d,  ), ( 6.466000, 6.197000, 0.269000, stg_counter1(1), r_add2(12)/d,  ), ( 6.461000, 6.192000, 0.269000, stg_counter1(0), r_add2(12)/d,  )
+
+LOGIC_REGS = 246
+RPT_DIR = RPT
+LOGIC_AREA = 437
+LOGIC_TA_LAT = 328
+LOGIC_LUTS = 437

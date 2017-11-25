@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Jul 18 21:01:00 2017
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Standard Edition
+Revision Name : kirsch
+Top-level Entity Name : kirsch
+Family : MAX 10
+Total logic elements : 472
+    Total combinational functions : 405
+    Dedicated logic registers : 225
+Total registers : 225
+Total pins : 34
+Total virtual pins : 0
+Total memory bits : 6,144
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

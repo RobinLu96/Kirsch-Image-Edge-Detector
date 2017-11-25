@@ -1,0 +1,2 @@
+uw-sim /home/ece327/bin/uw-sim -Gtest_num=3 kirsch.uwp
+ERROR: file_to_proj: Could not open file kirsch.uwp

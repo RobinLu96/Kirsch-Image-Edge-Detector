@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_valid",
+					"strict" : false
+				},
+				{
+					"name" : "o_edge",
+					"strict" : false
+				},
+				{
+					"name" : "o_mode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_mode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_row[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_row[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_row[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_row[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_row[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_row[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_row[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_row[7]",
+					"strict" : false
+				},
+				{
+					"name" : "o_col[0]",
+					"strict" : false
+				},
+				{
+					"name" : "o_col[1]",
+					"strict" : false
+				},
+				{
+					"name" : "o_col[2]",
+					"strict" : false
+				},
+				{
+					"name" : "o_col[3]",
+					"strict" : false
+				},
+				{
+					"name" : "o_col[4]",
+					"strict" : false
+				},
+				{
+					"name" : "o_col[5]",
+					"strict" : false
+				},
+				{
+					"name" : "o_col[6]",
+					"strict" : false
+				},
+				{
+					"name" : "o_col[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "i_valid",
+					"strict" : false
+				},
+				{
+					"name" : "i_pixel[7]",
+					"strict" : false
+				},
+				{
+					"name" : "i_pixel[6]",
+					"strict" : false
+				},
+				{
+					"name" : "i_pixel[5]",
+					"strict" : false
+				},
+				{
+					"name" : "i_pixel[4]",
+					"strict" : false
+				},
+				{
+					"name" : "i_pixel[3]",
+					"strict" : false
+				},
+				{
+					"name" : "i_pixel[2]",
+					"strict" : false
+				},
+				{
+					"name" : "i_pixel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "i_pixel[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

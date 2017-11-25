@@ -1,0 +1,235 @@
+    INFO: Starting PRECISION_RTL for logic synthesis
+precision: Setting MGC_HOME to /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home ...
+precision: Executing on platform: CentOS Linux release 7.3.1611 (Core)  -- 3.10.0-514.26.2.el7.x86_64 -- x86_64 
+Info: Your psyncpbpldmgc_c license is about to expire
+Info: Please contact your account representative for continued access to this feature.
+//  Precision RTL Synthesis 64-bit 2015.2.16 (PS2015.2.1 Production Release) Tue Jan  5 23:04:49 PST 2016
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2016, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux a6sathiy@ecelinux1.uwaterloo.ca #1 SMP Tue Jul 4 15:04:05 UTC 2017 3.10.0-514.26.2.el7.x86_64 x86_64
+//  
+//  Start time Fri Jul 21 00:14:19 2017
+-------------------------------------------------
+Info: Logging session transcript to file precision.log
+Info: The Results Directory has been set to: uw_tmp
+Info: Moving session transcript to file uw_tmp/precision.log
+Info: Setting up the design to use synthesis library "max10.syn"
+Info: The global max fanout is currently set to 1000 for Altera - MAX 10.
+Info: Setting Part to: "10M08SAE144C8GES".
+Info: Setting Process to: "8".
+Info: USING DESIGN ARCH
+Info: Reading file: /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/techlibs/max10.syn.
+Info: Loading library initialization file /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+Info: vhdlorder, Release 2015b.13
+Info: Files sorted successfully.
+Info: hdl-analyze, Release RTLC-Precision 2015b.13
+INFO: Analyzing "util.vhd"
+INFO: Analyzing "kirsch_synth_pkg.vhd"
+INFO: Analyzing "mem.vhd"
+INFO: Analyzing "kirsch.vhd"
+Info: Current working directory: uw_tmp.
+Info: RTLC-Driver, Release RTLC-Precision 2015b.13
+Info: Last compiled on Dec 24 2015 14:33:45
+Info: Initializing...
+Info: Partitioning design ....
+Info: RTLCompiler, Release RTLC-Precision 2015b.13
+Info: Last compiled on Dec 24 2015 15:06:12
+Info: Initializing...
+Info: Root Module work.kirsch(main): Pre-processing...
+Info: Module work.mem(main){generic map (data_width => 8 addr_width => 8)}: Pre-processing...
+Info: Built-in hardware memory core inferred for variable ': mem.mem depth = 256, width = 8'.
+Info: Module work.mem(main){generic map (data_width => 8 addr_width => 8)}: Compiling...
+Info: Root Module work.kirsch(main): Compiling...
+Warning: "kirsch.vhd", line 46: Initial value for dir1[3:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 47: Initial value for dir1_final[3:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 48: Initial value for dir2[2:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 49: Initial value for dir2_final[2:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 50: Initial value for intermediate_dir[2:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 52: Initial value for stg_counter1[3:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 53: Initial value for stg_counter2[3:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 54: Initial value for max0_bit_counter[1:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 55: Initial value for max1_bit_counter[1:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 62: Initial value for address[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 63: Initial value for row_index[1:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 64: Initial value for row_count[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Info: "kirsch.vhd", line 339: Sharing register b3[7] with a2[7]
+Info: "kirsch.vhd", line 339: Sharing register f3[7] with g2[7]
+Info: "kirsch.vhd", line 339: Sharing register g2[6] with f3[6]
+Info: "kirsch.vhd", line 339: Sharing register a2[6] with b3[6]
+Info: "kirsch.vhd", line 339: Sharing register g2[5] with f3[5]
+Info: "kirsch.vhd", line 339: Sharing register a2[5] with b3[5]
+Info: "kirsch.vhd", line 339: Sharing register g2[4] with f3[4]
+Info: "kirsch.vhd", line 339: Sharing register a2[4] with b3[4]
+Info: "kirsch.vhd", line 339: Sharing register g2[3] with f3[3]
+Info: "kirsch.vhd", line 339: Sharing register a2[3] with b3[3]
+Info: "kirsch.vhd", line 339: Sharing register g2[2] with f3[2]
+Info: "kirsch.vhd", line 339: Sharing register a2[2] with b3[2]
+Info: "kirsch.vhd", line 339: Sharing register g2[1] with f3[1]
+Info: "kirsch.vhd", line 339: Sharing register a2[1] with b3[1]
+Info: "kirsch.vhd", line 339: Sharing register g2[0] with f3[0]
+Info: "kirsch.vhd", line 339: Sharing register a2[0] with b3[0]
+Info: "kirsch.vhd", line 225: Sharing register r_sub0[13] with r_sub0[14]
+Info: "kirsch.vhd", line 294: Macro Modgen_Counter "counter_up_sclear_clock_clk_en_cnt_en_0_8" inferred for node "next_row_count".
+Info: "kirsch.vhd", line 299: Macro Modgen_Counter "counter_up_sclear_clock_clk_en_cnt_en_0_8" inferred for node "next_address".
+Info: Compilation successfully completed.
+Info: Counter Inferencing === Detected : 7, Inferred (Modgen/Selcounter/AddSub) : 2 (2 / 0 / 0), AcrossDH (Merged/Not-Merged) : (2 / 0), Not-Inferred (Acrossdh/Attempted) : (0 / 3), Local Vars : 2 ===
+Info: Total lines of RTL compiled: 628.
+Info: Total CPU time for compilation: 0.0 secs.
+Info: Overall running time for compilation: 1.0 secs.
+Info: Current working directory: uw_tmp.
+Info: Doing rtl optimizations.
+Info: Constraints: Precision will generate the constraint: create_clock [get_ports clk] -name clk -period 20 -waveform {0 10} on port:clk. Reason: setup_design -frequency. Please override the constraint if needed.
+Info: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+Info: Constraints: Precision Generated Clock Domains:
+Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+Info: Finished compiling design.
+Info: Writing file: uw_tmp/kirsch_gate.vhd.
+Info: Info, Command 'auto_write' finished successfully
+Info: Writing file: uw_tmp/kirsch_gate.vhd.
+Info: Info, Command 'auto_write' finished successfully
+Info: Current working directory: uw_tmp.
+Info: Precision will use 6 processor(s).
+Info: Optimizing design view:.work.kirsch.main
+Info: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+Info: Constraints: Precision Generated Clock Domains:
+Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+Info: Starting timing reports generation...
+Info: Timing reports generation done.
+Info: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+Info: Writing file: uw_tmp/kirsch.vhd.
+Info: Info, Writing xrf file 'uw_tmp/kirsch.xrf'
+Info: Writing file: uw_tmp/kirsch.xrf.
+Info: Writing file: uw_tmp/kirsch.v.
+Info: Writing file: uw_tmp/kirsch.xrf.
+Info: Writing file: uw_tmp/kirsch.vqm.
+Info: Writing file: uw_tmp/kirsch.xrf.
+Info: -- Writing file uw_tmp/kirsch.tcl
+Info: exq_pr_compile_project gen_vcf kirsch 1
+Info: Finished synthesizing design.
+Info: Total CPU time for synthesis: 2.2 s secs.
+Info: Overall running time for synthesis: 3.0 s secs.
+Warning: Your synthesis will restart from the compile step.
+Info: Loading library initialization file /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+Info: vhdlorder, Release 2015b.13
+Info: Files sorted successfully.
+Info: hdl-analyze, Release RTLC-Precision 2015b.13
+INFO: Analyzing "util.vhd"
+INFO: Analyzing "kirsch_synth_pkg.vhd"
+INFO: Analyzing "mem.vhd"
+INFO: Analyzing "kirsch.vhd"
+Info: Current working directory: uw_tmp.
+Info: RTLC-Driver, Release RTLC-Precision 2015b.13
+Info: Last compiled on Dec 24 2015 14:33:45
+Info: Initializing...
+Info: Partitioning design ....
+Info: RTLCompiler, Release RTLC-Precision 2015b.13
+Info: Last compiled on Dec 24 2015 15:06:12
+Info: Initializing...
+Info: Root Module work.kirsch(main): Pre-processing...
+Info: Module work.mem(main){generic map (data_width => 8 addr_width => 8)}: Pre-processing...
+Info: Built-in hardware memory core inferred for variable ': mem.mem depth = 256, width = 8'.
+Info: Module work.mem(main){generic map (data_width => 8 addr_width => 8)}: Compiling...
+Info: Root Module work.kirsch(main): Compiling...
+Warning: "kirsch.vhd", line 46: Initial value for dir1[3:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 47: Initial value for dir1_final[3:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 48: Initial value for dir2[2:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 49: Initial value for dir2_final[2:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 50: Initial value for intermediate_dir[2:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 52: Initial value for stg_counter1[3:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 53: Initial value for stg_counter2[3:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 54: Initial value for max0_bit_counter[1:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 55: Initial value for max1_bit_counter[1:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 62: Initial value for address[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 63: Initial value for row_index[1:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "kirsch.vhd", line 64: Initial value for row_count[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Info: "kirsch.vhd", line 339: Sharing register b3[7] with a2[7]
+Info: "kirsch.vhd", line 339: Sharing register f3[7] with g2[7]
+Info: "kirsch.vhd", line 339: Sharing register g2[6] with f3[6]
+Info: "kirsch.vhd", line 339: Sharing register a2[6] with b3[6]
+Info: "kirsch.vhd", line 339: Sharing register g2[5] with f3[5]
+Info: "kirsch.vhd", line 339: Sharing register a2[5] with b3[5]
+Info: "kirsch.vhd", line 339: Sharing register g2[4] with f3[4]
+Info: "kirsch.vhd", line 339: Sharing register a2[4] with b3[4]
+Info: "kirsch.vhd", line 339: Sharing register g2[3] with f3[3]
+Info: "kirsch.vhd", line 339: Sharing register a2[3] with b3[3]
+Info: "kirsch.vhd", line 339: Sharing register g2[2] with f3[2]
+Info: "kirsch.vhd", line 339: Sharing register a2[2] with b3[2]
+Info: "kirsch.vhd", line 339: Sharing register g2[1] with f3[1]
+Info: "kirsch.vhd", line 339: Sharing register a2[1] with b3[1]
+Info: "kirsch.vhd", line 339: Sharing register g2[0] with f3[0]
+Info: "kirsch.vhd", line 339: Sharing register a2[0] with b3[0]
+Info: "kirsch.vhd", line 225: Sharing register r_sub0[13] with r_sub0[14]
+Info: "kirsch.vhd", line 294: Macro Modgen_Counter "counter_up_sclear_clock_clk_en_cnt_en_0_8" inferred for node "next_row_count".
+Info: "kirsch.vhd", line 299: Macro Modgen_Counter "counter_up_sclear_clock_clk_en_cnt_en_0_8" inferred for node "next_address".
+Info: Compilation successfully completed.
+Info: Counter Inferencing === Detected : 7, Inferred (Modgen/Selcounter/AddSub) : 2 (2 / 0 / 0), AcrossDH (Merged/Not-Merged) : (2 / 0), Not-Inferred (Acrossdh/Attempted) : (0 / 3), Local Vars : 2 ===
+Info: Total lines of RTL compiled: 628.
+Info: Total CPU time for compilation: 0.0 secs.
+Info: Overall running time for compilation: 1.0 secs.
+Info: Current working directory: uw_tmp.
+Info: Doing rtl optimizations.
+Info: Constraints: Precision will generate the constraint: create_clock [get_ports clk] -name clk -period 20 -waveform {0 10} on port:clk. Reason: setup_design -frequency. Please override the constraint if needed.
+Info: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+Info: Constraints: Precision Generated Clock Domains:
+Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+Info: Finished compiling design.
+Info: Current working directory: uw_tmp.
+Info: Precision will use 6 processor(s).
+Info: Optimizing design view:.work.kirsch.main
+Info: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+Info: Constraints: Precision Generated Clock Domains:
+Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+Info: Starting timing reports generation...
+Info: Timing reports generation done.
+Info: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+Info: Writing file: uw_tmp/kirsch.vhd.
+Info: Writing file: uw_tmp/kirsch.xrf.
+Info: Writing file: uw_tmp/kirsch.v.
+Info: Writing file: uw_tmp/kirsch.xrf.
+Info: Writing file: uw_tmp/kirsch.vqm.
+Info: Writing file: uw_tmp/kirsch.xrf.
+Info: -- Writing file uw_tmp/kirsch.tcl
+Info: exq_pr_compile_project gen_vcf kirsch 1
+Info: Finished synthesizing design.
+Info: Total CPU time for synthesis: 2.1 s secs.
+Info: Overall running time for synthesis: 2.8 s secs.
+Info: clk
+Info: 1
+Info: 0
+Info: Writing file: uw_tmp/kirsch_logic.sdf.
+Info: Using verilog names style for SDF.
+Info: Do 'set sdf_names_style vhdl' to use vhdl names style for SDF.
+Info: Info, Writing xrf file 'uw_tmp/kirsch_logic.xrf'
+Info: Writing file: uw_tmp/kirsch_logic.xrf.
+Info: Info, Command 'auto_write' finished successfully
+Info: *** logic synthesis succeeded ***
+    INFO: generic-gate       netlist         written to uw_tmp/kirsch_gate.vhd
+    INFO: generic-gate       area estimate   written to RPT/area_gate.rpt
+    INFO: logic-synthesis    netlist         written to uw_tmp/kirsch_logic.vhd
+    INFO: logic-synthesis    area estimate   written to RPT/area_logic.rpt
+    INFO: logic-synthesis    timing estimate written to RPT/timing_logic.rpt
+    INFO: --------------------------------------------------------------------------------
+    INFO: AREA = 437 cells (437 luts, 246 regs) (estimated by logic-synthesis)
+    INFO: Speed on Max 10 = 151 MHz,  6.60 ns (estimated by logic-synthesis)
+    INFO: --------------------------------------------------------------------------------
+    INFO: CRITICAL PATHS (slowest 5 paths, estimated by logic synthesis)
+    INFO: ..........Delays.........
+    INFO:  Total  Datapath  Routing          Source              Dest
+    INFO: ------  --------  -------   --------------------  ---------------------
+    INFO:   6.60     6.33     0.27    stg_counter2(1)       r_add2(12)/d         
+    INFO:   6.57     6.30     0.27    stg_counter2(0)       r_add2(12)/d         
+    INFO:   6.49     6.22     0.27    stg_counter2(2)       r_add2(12)/d         
+    INFO:   6.47     6.20     0.27    stg_counter1(1)       r_add2(12)/d         
+    INFO:   6.46     6.19     0.27    stg_counter1(0)       r_add2(12)/d         
+    INFO: 
+    INFO: ***********************************************
+    INFO: *
+    INFO: * uw-synth to lstep was successful
+    INFO: * log file stored in LOG/uw-synth.log
+    INFO: *
+    INFO: ***********************************************

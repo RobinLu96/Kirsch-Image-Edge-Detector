@@ -1,0 +1,52 @@
+//  Precision RTL Synthesis 64-bit 2015.2.16 (PS2015.2.1 Production Release) Tue Jan  5 23:04:49 PST 2016
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2016, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux a6sathiy@ecelinux1.uwaterloo.ca #1 SMP Tue Jul 4 15:04:05 UTC 2017 3.10.0-514.26.2.el7.x86_64 x86_64
+//  
+//  Start time Fri Jul 21 00:14:19 2017
+
+***************************************************************
+Device Utilization for 10M08SAE144C8GES
+***************************************************************
+Resource                          Used    Avail   Utilization
+---------------------------------------------------------------
+IOs                               34      -            -
+LUTs                              437     8064      5.42%
+Registers                         246     8064      3.05%
+Memory Bits                       6144    387072    1.59%
+DSP block 9-bit elems             0       48        0.00%
+---------------------------------------------------------------
+
+*******************************************
+
+Library: work    Cell: kirsch    View: main
+
+*******************************************
+
+  Cell                     Library  References     Total Area
+
+ GND                       max10         1 x
+ NOT                       max10         1 x
+ VCC                       max10         1 x
+ dffeas                    max10       246 x      1    246 Registers
+ fiftyfivenm_lcell_comb    max10       437 x      1    437 LUTs
+ ram_dq_8_0                OPERATORS     1 x   2048   2048 Memory Bits
+ ram_dq_8_1                OPERATORS     1 x   2048   2048 Memory Bits
+ ram_dq_8_2                OPERATORS     1 x   2048   2048 Memory Bits
+
+ Number of ports :                      34
+ Number of nets :                      770
+ Number of instances :                 689
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of LCs :                         0
+ Number of LUTs :                      437
+ Number of Memory Bits :              6144
+ Number of Registers :                 246
+ Number of accumulated instances :     692
